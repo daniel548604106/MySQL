@@ -28,8 +28,7 @@ A much preferred way is to start indexing when we are building the schema , but 
 ![image](https://user-images.githubusercontent.com/61279365/157588987-fe1bc2a3-1327-43a6-8d22-ffec11186441.png)
 
 Ex.1 Name Index
-![image](https://user-images.githubusercontent.com/61279365/157589067-139c69eb-b96b-4868-a6e6-c4bd2cd8b3aa.png)
-
+![image](https://user-images.githubusercontent.com/61279365/157589112-2d36fdec-6c5b-4d7c-9d06-f9801cc95d38.png)
 
 
 ## Types of Indexing 
