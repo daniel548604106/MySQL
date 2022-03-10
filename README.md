@@ -10,3 +10,40 @@
 2. Unique Index : Cannot have duplicates , but can store NULL value.
 3. Non-unique Index
 4. Full-Text search : Can only be used in type of CHAR , VARCHAR , TEXT 
+
+
+## Methods for Indexing
+
+```
+CREATE TABLE product(
+  id INT UNSIGNED PRIMARY KEY,
+  name VARCHAR(20),
+  email VARCHAR(36) UNIQUE KEY
+)
+
+// or
+
+CREATE TABLE product(
+id,
+name,
+email,
+PRIMARY KEY(id),
+UNIQUE KEY(email)
+)
+```
+
+```
+
+CREATE INDEX email_index ON member(email);
+ALTER TABLE member ADD INDEX(email;
+
+```
+
+
+## Removing Indexes
+
+```
+DROP INDEX email ON member;
+DROP INDX 'PRIMARY' on member;
+
+```
