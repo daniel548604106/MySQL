@@ -39,6 +39,7 @@ CREATE TABLE products(
 
 ALTER TABLE products
 CREATE INDEX idx_sku
+ADD UNIQUE idx_sku (product_sku);
 
 ```
 
