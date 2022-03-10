@@ -30,6 +30,7 @@ A much preferred way is to start indexing when we are building the schema , but 
 Ex.1 Name Index
 ![image](https://user-images.githubusercontent.com/61279365/157589112-2d36fdec-6c5b-4d7c-9d06-f9801cc95d38.png)
 
+The tree only contains the values that you put index on.
 
 ## Types of Indexing 
 1. Primary Key : Most commonly seen ，而且一個 Table 通常只能有一個 Primary Key (Cannot have duplicates & Cannot store "NULL" value.  
