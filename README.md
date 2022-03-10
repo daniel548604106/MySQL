@@ -43,6 +43,14 @@ The tree only contains the values that you put index on.
 4. Full-Text search : Can only be used in type of CHAR , VARCHAR , TEXT 
 
 
+
+我們可以先來了解一下 MySQL Database 是怎麼找資料的
+```
+EXPLAIN SELECT * FROM users WHERE id = 1;
+```
+![image](https://user-images.githubusercontent.com/61279365/157596294-96bd945c-ed0e-4668-923c-f483447ec555.png)
+
+
 ## Methods for Indexing
 
 ```
