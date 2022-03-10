@@ -22,6 +22,8 @@ A much preferred way is to start indexing when we are building the schema , but 
 索引在資料庫裡面扮演了很重要的角色，如果沒有 Index ，資料庫將會從頭掃描到尾，一直到找尋到符合目標為止，一旦 Table 裡面的資料量增加到一定的 size 後，搜尋的速度就會愈慢，效能就會愈差，所以一個好的 Table 要有相對應的索引來幫助搜尋。
 
 
+!! Indexing makes reading faster but writing slower. 所以千萬不是 Indexing 愈多愈好
+
 這個 Doubly Linked-List 的概念非常重要，當我們的 Database 在搜尋到每一個 tree node 時，會是透過這樣的方式去找到隔壁的 node ，不然會變成需要重投來過一遍 ( This is not efficient at all!)
 ![image](https://user-images.githubusercontent.com/61279365/157588680-5fec4ee3-3664-435f-bcb9-41e376fbd8f7.png)
 
