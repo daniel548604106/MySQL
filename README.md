@@ -4,7 +4,7 @@
 # What is Indexing (索引)?
 Indexing is sort of like telling the table that this is an important column . 
 It can create a tree structure , which will increase the speed of searching through the table.
-A much preferred way is to start indexing when we are building the schema.
+A much preferred way is to start indexing when we are building the schema , but we can still add indexes after the table has been created , using the ALTER keyword.
 
 索引在資料庫裡面扮演了很重要的角色，如果沒有 Index ，資料庫將會從頭掃描到尾，一直到找尋到符合目標為止，一旦 Table 裡面的資料量增加到一定的 size 後，搜尋的速度就會愈慢，效能就會愈差，所以一個好的 Table 要有相對應的索引來幫助搜尋。
 
