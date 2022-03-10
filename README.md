@@ -39,6 +39,8 @@ PRIMARY KEY(id),
 UNIQUE KEY(email)
 )
 ```
+![image](https://user-images.githubusercontent.com/61279365/157584739-a8aaaa58-8048-430a-89ae-cb29b81c218a.png)
+
 
 ```
 
