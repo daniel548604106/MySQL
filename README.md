@@ -29,23 +29,16 @@ CREATE TABLE products(
   INDEX idx_names (product_name,product_category)
 )
 
-// or
-
-CREATE TABLE product(
-id,
-name,
-email,
-PRIMARY KEY(id),
-UNIQUE KEY(email)
-)
 ```
 ![image](https://user-images.githubusercontent.com/61279365/157584739-a8aaaa58-8048-430a-89ae-cb29b81c218a.png)
 
 
+
+因為 SKU 一定是唯一值，所以很好做為 index 的標的
 ```
 
-CREATE INDEX email_index ON member(email);
-ALTER TABLE member ADD INDEX(email;
+ALTER TABLE products
+CREATE INDEX idx_sku
 
 ```
 
