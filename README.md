@@ -2,6 +2,7 @@
 
 
 # What is Indexing (索引)?
+Indexing is sort of like telling the table that this is an important column.
 
 索引在資料庫裡面扮演了很重要的角色，如果沒有 Index ，資料庫將會從頭掃描到尾，一直到找尋到符合目標為止，一旦 Table 裡面的資料量增加到一定的 size 後，搜尋的速度就會愈慢，效能就會愈差，所以一個好的 Table 要有相對應的索引來幫助搜尋。
 
