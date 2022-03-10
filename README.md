@@ -50,3 +50,10 @@ DROP INDX 'PRIMARY' on member;
 
 
 假設建立兩個索引 index_1 (sex, name, age) 跟 index_2 (name, age, sex)，在 index_1 中可以發現最左(最先)判斷的性別，但性別包含過多的資料，導致搜尋出來的結果還是很多，並無太大幫助，所以最左邊的應該放置更有識別性的欄位，像是 index_2的 name 較具有唯一性，才能大大提升搜尋的效率。
+
+
+MySQL資料庫提供「 EXMPLIN 」指令，讓我們分析一個查詢敘述。在要使用的 SQL 語句最前面加上 " EXPLAIN "，用來判斷先前所建立的索引有沒有如預期中使用，
+
+```
+EXPLAIN SELECT * FROM member WHERE name = 'Michael';
+```
