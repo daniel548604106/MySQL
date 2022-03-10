@@ -1,7 +1,7 @@
 # MySQL
 
 
-# What is Indexing (索引)?
+# What is Database Indexing (索引)?
 Indexing is sort of like telling the table that this is an important column . 
 It can create a tree structure , which will increase the speed of searching through the table.
 A much preferred way is to start indexing when we are building the schema , but we can still add indexes after the table has been created , using the ALTER keyword.
