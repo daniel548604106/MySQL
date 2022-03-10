@@ -4,6 +4,8 @@
 # What is Database Indexing (索引)?
 
 - Improve Query Performance
+  - Searching for a value is fast
+  - Logarithmic scalability
 
 一個很好的比喻是電話簿，通常電話簿是依照 lastName 來排序，所以我們今天如果要使用 lastName 來查詢的時候會很快，因為早已排序好，但是如果我們今天要使用 firstName 來查詢，那就只能說抱歉了資料庫會一個一個查。所以這種情況我們也可以說電話簿是依照 lastName 在 Index的。
 
