@@ -51,6 +51,13 @@ EXPLAIN SELECT * FROM users WHERE id = 1;
 ![image](https://user-images.githubusercontent.com/61279365/157596294-96bd945c-ed0e-4668-923c-f483447ec555.png)
 
 
+
+CONST / EQ_REF
+
+- Peforms a B-Tree Traversal to find a single value
+- Basically a binary search
+
+
 ## Methods for Indexing
 
 ```
