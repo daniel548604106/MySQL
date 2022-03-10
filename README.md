@@ -11,7 +11,7 @@
 - An Index is an ordered representation of the indexed data. (想想 binary search 就是透過 sorted array 在快速查找)
 
 Indexing is sort of like telling the table that this is an important column . 
-It can create a tree structure (B-Tree : Balanced Tree) , which will increase the speed of searching through the table.
+It can create a tree structure (B-Tree : Balanced Tree , the leave nodes will always be at the same level , this way we can guarantee that we can take the same number of steps to find the exact node) , which will increase the speed of searching through the table.
 A much preferred way is to start indexing when we are building the schema , but we can still add indexes after the table has been created , using the ALTER keyword.
 
 ![image](https://user-images.githubusercontent.com/61279365/157586984-16185efb-f844-45f2-a3f1-8f6f28f3bfde.png)
