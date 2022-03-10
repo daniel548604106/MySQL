@@ -24,6 +24,14 @@ A much preferred way is to start indexing when we are building the schema , but 
 ![image](https://user-images.githubusercontent.com/61279365/157588680-5fec4ee3-3664-435f-bcb9-41e376fbd8f7.png)
 
 
+我們用下面這張 Table 來實際了解一下我們在 Indexing 時實際上做了甚麼
+![image](https://user-images.githubusercontent.com/61279365/157588987-fe1bc2a3-1327-43a6-8d22-ffec11186441.png)
+
+Ex.1 Name Index
+![image](https://user-images.githubusercontent.com/61279365/157589067-139c69eb-b96b-4868-a6e6-c4bd2cd8b3aa.png)
+
+
+
 ## Types of Indexing 
 1. Primary Key : Most commonly seen ，而且一個 Table 通常只能有一個 Primary Key (Cannot have duplicates & Cannot store "NULL" value.  
 2. Unique Index : Cannot have duplicates , but can store NULL value.
