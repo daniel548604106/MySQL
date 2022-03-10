@@ -7,6 +7,9 @@
 
 一個很好的比喻是電話簿，通常電話簿是依照 lastName 來排序，所以我們今天如果要使用 lastName 來查詢的時候會很快，因為早已排序好，但是如果我們今天要使用 firstName 來查詢，那就只能說抱歉了資料庫會一個一個查。所以這種情況我們也可以說電話簿是依照 lastName 在 Index的。
 
+
+- An Index is an ordered representation of the indexed data.
+
 Indexing is sort of like telling the table that this is an important column . 
 It can create a tree structure , which will increase the speed of searching through the table.
 A much preferred way is to start indexing when we are building the schema , but we can still add indexes after the table has been created , using the ALTER keyword.
