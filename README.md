@@ -18,10 +18,14 @@ A much preferred way is to start indexing when we are building the schema , but 
 ## Methods for Indexing
 
 ```
-CREATE TABLE product(
-  id INT UNSIGNED PRIMARY KEY,
-  name VARCHAR(20),
-  email VARCHAR(36) UNIQUE KEY
+CREATE TABLE products(
+  product_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  product_name VARCHAR(100) NOT NULL,
+  product_category VARCHAR(50),
+  product_price DECIMAL(10,2) NOT NULL,
+  product_sku CHAR(10) NOT NULL,
+  product_decription VARCHAR(500)
+  PRIMARY KEY (product_id)
 )
 
 // or
