@@ -46,8 +46,8 @@ CREATE INDEX idx_sku
 ## Removing Indexes
 
 ```
-DROP INDEX email ON member;
-DROP INDX 'PRIMARY' on member;
+DROP INDEX idx_sku ON products;
+DROP INDEX (column_name) ON (;
 
 ```
 
