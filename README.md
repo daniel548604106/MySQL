@@ -9,4 +9,4 @@
 1. Primary Key : Most commonly seen ，而且一個 Table 通常只能有一個 Primary Key (Cannot have duplicates & Cannot store "NULL" value.  
 2. Unique Index : Cannot have duplicates , but can store NULL value.
 3. Non-unique Index
-4. Full-Text search
+4. Full-Text search : Can only be used in type of CHAR , VARCHAR , TEXT 
